@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldOverrides>
+        <field>Category__c</field>
+        <literalValue>Category 1</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Industry</field>
+        <literalValue>Biotechnology</literalValue>
+    </fieldOverrides>
+    <label>Set to Cat 1 and Biotech</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns/>
+        <quickActionLayoutColumns/>
+    </quickActionLayout>
+    <type>Update</type>
+</QuickAction>
